@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Stylish form</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<form>
+				<h1>Hey There!</h1>
+				<label>
+					<span> What's your name?</span>
+					<input type="text" required placeholder="Enter your name" />
+				</label>
+				<label>
+					<span> What's your email address?</span>
+					<input type="text" required placeholder="Enter your name" />
+				</label>
+				<label>
+					<span> What's your email address?</span>
+					<input type="text" required placeholder="Enter your name" />
+				</label>
+				<label>
+					<span>What service are you looking for?</span>
+					<select name="service" required>
+						<option value="" disabled selected>Choose a service</option>
+						<option value="male">Frontend</option>
+						<option value="female">Backend</option>
+						<option value="other">FullStack</option>
+					</select>
+				</label>
+				<label>
+					<span>What service are you looking for?</span>
+					<select name="service" required>
+						<option value="" disabled selected>Choose a service</option>
+						<option value="male">Frontend</option>
+						<option value="female">Backend</option>
+						<option value="other">FullStack</option>
+					</select>
+				</label>
+				<label>
+					<span>Anything else you'd like to tell us</span>
+					<textarea name="comment" cols="30" rows="3"></textarea>
+				</label>
+				<label>
+					<span>
+						I agree with T&Cs
+						<input type="checkbox" name="agree" required />
+					</span>
+				</label>
+				<button type="submit">Submit →</button>
+			</form>
+		</div>
+	</body>
+</html>
