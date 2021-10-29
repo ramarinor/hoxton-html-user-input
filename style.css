@@ -70,3 +70,7 @@ form button {
 	outline: none;
 	background-image: linear-gradient(to right, #bc58d6, #619fec);
 }
+form input:focus:invalid,
+form select:focus:invalid {
+	background-color: rgba(255, 0, 0, 0.351);
+}
