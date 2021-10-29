@@ -67,6 +67,6 @@ form button {
 	font-size: 1.2rem;
 	color: white;
 	border-radius: 10px;
-	outline: ;
+	outline: none;
 	background-image: linear-gradient(to right, #bc58d6, #619fec);
 }
