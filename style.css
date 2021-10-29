@@ -7,6 +7,7 @@ html {
 	background-color: #a667d9;
 	display: grid;
 	justify-items: center;
+	font-family: sans-serif;
 }
 body {
 	width: 600px;
@@ -18,8 +19,8 @@ body {
 form {
 	box-shadow: 0 0 20px 15px #d6b0ed;
 	border-radius: 5px;
-	width: 300px;
-	padding: 20px;
+	width: 360px;
+	padding: 2rem;
 	background-color: white;
 }
 
@@ -32,8 +33,40 @@ span {
 }
 
 form h1 {
-	background-image: linear-gradient(to right, #7a8ae6, #a667da);
+	text-align: center;
+	margin-bottom: 1rem;
+	background-image: linear-gradient(to right, #619fec, #bc58d6);
 	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent;
+}
+
+form span {
+	color: #606060;
+	margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea,
+form select {
+	margin-bottom: 0.5rem;
+	font-size: 1.2rem;
+	width: 100%;
+	border: none;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid #f5e3f7;
+	outline: none;
+}
+#t-and-c {
+	width: auto;
+}
+
+form button {
+	width: 100%;
+	padding: 0.5rem;
+	font-size: 1.2rem;
+	color: white;
+	border-radius: 10px;
+	outline: ;
+	background-image: linear-gradient(to right, #bc58d6, #619fec);
 }
